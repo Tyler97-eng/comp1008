@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Polygon?>
+<?import javafx.scene.text.Font?>
+
+<VBox prefHeight="700.0" prefWidth="600.0" style="-fx-background-color: #ffd0d0;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ca.georgiancollege.comp1008.comp1008thursday11amgui.ClassroomController">
+   <children>
+      <Label alignment="CENTER" contentDisplay="CENTER" style="-fx-background-color: #664d4d;" text="Teacher" textFill="WHITE">
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+         <VBox.margin>
+            <Insets bottom="10.0" left="230.0" top="10.0" />
+         </VBox.margin>
+         <font>
+            <Font name="Cambria Bold Italic" size="36.0" />
+         </font>
+      </Label>
+      <GridPane gridLinesVisible="true" prefHeight="403.0" prefWidth="592.0" style="-fx-background-color: #664d4d;">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints />
+          <RowConstraints maxHeight="130.20000305175782" minHeight="10.0" prefHeight="130.20000305175782" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="235.2" minHeight="0.0" prefHeight="133.39999694824215" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="303.99999084472654" minHeight="10.0" prefHeight="130.39999999999998" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <Polygon fx:id="student1Body" fill="WHITE" points="-50.0, 40.0, 73.4999771118164, 40.0, 7.900002956390381, -71.20034790039062" stroke="BLACK" strokeType="INSIDE" GridPane.rowIndex="1">
+               <GridPane.margin>
+                  <Insets left="36.0" top="20.0" />
+               </GridPane.margin>
+            </Polygon>
+            <Circle fx:id="student1Head" fill="WHITE" radius="38.0" stroke="BLACK" strokeType="INSIDE" GridPane.rowIndex="1">
+               <GridPane.margin>
+                  <Insets bottom="30.0" left="58.0" />
+               </GridPane.margin>
+            </Circle>
+            <Label fx:id="student1Label" prefHeight="18.0" prefWidth="84.0" style="-fx-border-color: black; -fx-alignment: center; -fx-background-color: white;" textAlignment="CENTER" GridPane.rowIndex="1">
+               <GridPane.margin>
+                  <Insets left="54.0" top="90.0" />
+               </GridPane.margin>
+               <font>
+                  <Font name="Cambria" size="20.0" />
+               </font>
+            </Label>
+            <Polygon fx:id="student2Body" fill="WHITE" points="-50.0, 40.0, 73.4999771118164, 40.0, 7.900002956390381, -71.20034790039062" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="1" GridPane.rowIndex="1">
+               <GridPane.margin>
+                  <Insets left="36.0" top="20.0" />
+               </GridPane.margin>
+            </Polygon>
+            <Circle fx:id="student2Head" fill="WHITE" radius="38.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="1" GridPane.rowIndex="1">
+               <GridPane.margin>
+                  <Insets bottom="30.0" left="58.0" />
+               </GridPane.margin>
+            </Circle>
+            <Polygon fx:id="student3Body" fill="WHITE" points="-50.0, 40.0, 73.4999771118164, 40.0, 7.900002956390381, -71.20034790039062" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="2" GridPane.rowIndex="1">
+               <GridPane.margin>
+                  <Insets left="36.0" top="20.0" />
+               </GridPane.margin>
+            </Polygon>
+            <Polygon fx:id="student4Body" fill="WHITE" points="-50.0, 40.0, 73.4999771118164, 40.0, 7.900002956390381, -71.20034790039062" stroke="BLACK" strokeType="INSIDE" GridPane.rowIndex="2">
+               <GridPane.margin>
+                  <Insets left="36.0" top="26.0" />
+               </GridPane.margin>
+            </Polygon>
+            <Polygon fx:id="student5Body" fill="WHITE" points="-50.0, 40.0, 73.4999771118164, 40.0, 7.900002956390381, -71.20034790039062" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="1" GridPane.rowIndex="2">
+               <GridPane.margin>
+                  <Insets left="36.0" top="26.0" />
+               </GridPane.margin>
+            </Polygon>
+            <Polygon fx:id="student6Body" fill="WHITE" points="-50.0, 40.0, 73.4999771118164, 40.0, 7.900002956390381, -71.20034790039062" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="2" GridPane.rowIndex="2">
+               <GridPane.margin>
+                  <Insets left="36.0" top="26.0" />
+               </GridPane.margin>
+            </Polygon>
+            <Polygon fx:id="student7Body" fill="WHITE" points="-50.0, 40.0, 73.4999771118164, 40.0, 7.900002956390381, -71.20034790039062" stroke="BLACK" strokeType="INSIDE" GridPane.rowIndex="3">
+               <GridPane.margin>
+                  <Insets left="36.0" top="25.0" />
+               </GridPane.margin>
+            </Polygon>
+            <Polygon fx:id="student8Body" fill="WHITE" points="-50.0, 40.0, 73.4999771118164, 40.0, 7.900002956390381, -71.20034790039062" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="1" GridPane.rowIndex="3">
+               <GridPane.margin>
+                  <Insets left="36.0" top="25.0" />
+               </GridPane.margin>
+            </Polygon>
+            <Polygon fx:id="student9Body" fill="WHITE" points="-50.0, 40.0, 73.4999771118164, 40.0, 7.900002956390381, -71.20034790039062" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="2" GridPane.rowIndex="3">
+               <GridPane.margin>
+                  <Insets left="36.0" top="25.0" />
+               </GridPane.margin>
+            </Polygon>
+            <Circle fx:id="student3Head" fill="WHITE" radius="38.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="2" GridPane.rowIndex="1">
+               <GridPane.margin>
+                  <Insets bottom="30.0" left="58.0" />
+               </GridPane.margin>
+            </Circle>
+            <Circle fx:id="student4Head" fill="WHITE" radius="38.0" stroke="BLACK" strokeType="INSIDE" GridPane.rowIndex="2">
+               <GridPane.margin>
+                  <Insets bottom="30.0" left="58.0" />
+               </GridPane.margin>
+            </Circle>
+            <Circle fx:id="student5Head" fill="WHITE" radius="38.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="1" GridPane.rowIndex="2">
+               <GridPane.margin>
+                  <Insets bottom="30.0" left="58.0" />
+               </GridPane.margin>
+            </Circle>
+            <Circle fx:id="student6Head" fill="WHITE" radius="38.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="2" GridPane.rowIndex="2">
+               <GridPane.margin>
+                  <Insets bottom="30.0" left="58.0" />
+               </GridPane.margin>
+            </Circle>
+            <Circle fx:id="student7Head" fill="WHITE" radius="38.0" stroke="BLACK" strokeType="INSIDE" GridPane.rowIndex="3">
+               <GridPane.margin>
+                  <Insets bottom="30.0" left="58.0" />
+               </GridPane.margin>
+            </Circle>
+            <Circle fx:id="student8Head" fill="WHITE" radius="38.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="1" GridPane.rowIndex="3">
+               <GridPane.margin>
+                  <Insets bottom="30.0" left="58.0" />
+               </GridPane.margin>
+            </Circle>
+            <Circle fx:id="student9Head" fill="WHITE" radius="38.0" stroke="BLACK" strokeType="INSIDE" GridPane.columnIndex="2" GridPane.rowIndex="3">
+               <GridPane.margin>
+                  <Insets bottom="30.0" left="58.0" />
+               </GridPane.margin>
+            </Circle>
+            <Label fx:id="student2Label" prefHeight="18.0" prefWidth="84.0" style="-fx-border-color: black; -fx-alignment: center; -fx-background-color: white;" textAlignment="CENTER" GridPane.columnIndex="1" GridPane.rowIndex="1">
+               <font>
+                  <Font name="Cambria" size="20.0" />
+               </font>
+               <GridPane.margin>
+                  <Insets left="54.0" top="90.0" />
+               </GridPane.margin>
+            </Label>
+            <Label fx:id="student3Label" prefHeight="18.0" prefWidth="84.0" style="-fx-border-color: black; -fx-alignment: center; -fx-background-color: white;" textAlignment="CENTER" GridPane.columnIndex="2" GridPane.rowIndex="1">
+               <font>
+                  <Font name="Cambria" size="20.0" />
+               </font>
+               <GridPane.margin>
+                  <Insets left="54.0" top="90.0" />
+               </GridPane.margin>
+            </Label>
+            <Label fx:id="student4Label" prefHeight="18.0" prefWidth="84.0" style="-fx-border-color: black; -fx-alignment: center; -fx-background-color: white;" textAlignment="CENTER" GridPane.rowIndex="2">
+               <font>
+                  <Font name="Cambria" size="20.0" />
+               </font>
+               <GridPane.margin>
+                  <Insets left="54.0" top="90.0" />
+               </GridPane.margin>
+            </Label>
+            <Label fx:id="student5Label" prefHeight="18.0" prefWidth="84.0" style="-fx-border-color: black; -fx-alignment: center; -fx-background-color: white;" textAlignment="CENTER" GridPane.columnIndex="1" GridPane.rowIndex="2">
+               <font>
+                  <Font name="Cambria" size="20.0" />
+               </font>
+               <GridPane.margin>
+                  <Insets left="54.0" top="90.0" />
+               </GridPane.margin>
+            </Label>
+            <Label fx:id="student6Label" prefHeight="18.0" prefWidth="84.0" style="-fx-border-color: black; -fx-alignment: center; -fx-background-color: white;" textAlignment="CENTER" GridPane.columnIndex="2" GridPane.rowIndex="2">
+               <font>
+                  <Font name="Cambria" size="20.0" />
+               </font>
+               <GridPane.margin>
+                  <Insets left="54.0" top="90.0" />
+               </GridPane.margin>
+            </Label>
+            <Label fx:id="student7Label" prefHeight="18.0" prefWidth="84.0" style="-fx-border-color: black; -fx-alignment: center; -fx-background-color: white;" textAlignment="CENTER" GridPane.rowIndex="3">
+               <font>
+                  <Font name="Cambria" size="20.0" />
+               </font>
+               <GridPane.margin>
+                  <Insets left="54.0" top="90.0" />
+               </GridPane.margin>
+            </Label>
+            <Label fx:id="student8Label" prefHeight="18.0" prefWidth="84.0" style="-fx-border-color: black; -fx-alignment: center; -fx-background-color: white;" textAlignment="CENTER" GridPane.columnIndex="1" GridPane.rowIndex="3">
+               <font>
+                  <Font name="Cambria" size="20.0" />
+               </font>
+               <GridPane.margin>
+                  <Insets left="54.0" top="90.0" />
+               </GridPane.margin>
+            </Label>
+            <Label fx:id="student9Label" prefHeight="18.0" prefWidth="84.0" style="-fx-border-color: black; -fx-alignment: center; -fx-background-color: white;" textAlignment="CENTER" GridPane.columnIndex="2" GridPane.rowIndex="3">
+               <font>
+                  <Font name="Cambria" size="20.0" />
+               </font>
+               <GridPane.margin>
+                  <Insets left="54.0" top="90.0" />
+               </GridPane.margin>
+            </Label>
+         </children>
+      </GridPane>
+      <Label fx:id="errorMessage" alignment="CENTER" text="Error Message" textAlignment="CENTER" textFill="RED">
+         <VBox.margin>
+            <Insets left="220.0" top="20.0" />
+         </VBox.margin>
+         <font>
+            <Font name="Cambria Italic" size="24.0" />
+         </font>
+      </Label>
+      <HBox prefHeight="63.0" prefWidth="600.0">
+         <children>
+            <Label prefHeight="22.0" prefWidth="125.0" style="-fx-background-color: white; -fx-border-color: black; -fx-alignment: center;" text="Student Name:">
+               <font>
+                  <Font name="Cambria" size="18.0" />
+               </font>
+               <HBox.margin>
+                  <Insets left="100.0" top="30.0" />
+               </HBox.margin>
+            </Label>
+            <TextField fx:id="studentName" prefHeight="26.0" prefWidth="180.0" style="-fx-border-color: black;">
+               <HBox.margin>
+                  <Insets left="20.0" top="20.0" />
+               </HBox.margin>
+               <font>
+                  <Font name="Cambria" size="18.0" />
+               </font>
+            </TextField>
+         </children>
+         <VBox.margin>
+            <Insets />
+         </VBox.margin>
+      </HBox>
+      <HBox prefHeight="50.0" prefWidth="200.0">
+         <children>
+            <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="22.0" prefWidth="125.0" style="-fx-background-color: white; -fx-border-color: black;" text="Student Colour:" textAlignment="CENTER">
+               <font>
+                  <Font name="Cambria" size="18.0" />
+               </font>
+               <HBox.margin>
+                  <Insets left="100.0" top="15.0" />
+               </HBox.margin>
+            </Label>
+            <ComboBox fx:id="colourChoice" prefHeight="38.0" prefWidth="180.0" promptText="Select Colour">
+               <HBox.margin>
+                  <Insets left="20.0" top="7.0" />
+               </HBox.margin>
+            </ComboBox>
+         </children>
+      </HBox>
+      <Button mnemonicParsing="false" onAction="#onAddStudent" prefWidth="150.0" text="Add Student">
+         <VBox.margin>
+            <Insets left="200.0" top="10.0" />
+         </VBox.margin>
+         <font>
+            <Font name="Cambria" size="14.0" />
+         </font></Button>
+   </children>
+</VBox>
